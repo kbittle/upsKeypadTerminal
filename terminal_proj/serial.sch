@@ -1,0 +1,197 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:DB25_Female_MountingHoles J?
+U 1 1 605030FA
+P 3900 5400
+AR Path="/605030FA" Ref="J?"  Part="1" 
+AR Path="/604FA2C0/605030FA" Ref="J3"  Part="1" 
+F 0 "J3" V 4125 5355 50  0000 C CNN
+F 1 "DB25_Female_MountingHoles" V 4216 5355 50  0000 C CNN
+F 2 "Connector_Dsub:DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 3900 5400 50  0001 C CNN
+F 3 " ~" H 3900 5400 50  0001 C CNN
+	1    3900 5400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4050 3650 4900 3650
+Wire Wire Line
+	4900 3650 4900 5100
+Wire Wire Line
+	4050 4050 4700 4050
+Wire Wire Line
+	4700 4050 4700 5100
+Wire Wire Line
+	3900 5100 3900 4750
+$Comp
+L power:+5V #PWR?
+U 1 1 60503105
+P 3250 2200
+AR Path="/60503105" Ref="#PWR?"  Part="1" 
+AR Path="/604FA2C0/60503105" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 3250 2050 50  0001 C CNN
+F 1 "+5V" H 3265 2373 50  0000 C CNN
+F 2 "" H 3250 2200 50  0001 C CNN
+F 3 "" H 3250 2200 50  0001 C CNN
+	1    3250 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6050310B
+P 2400 4850
+AR Path="/6050310B" Ref="#PWR?"  Part="1" 
+AR Path="/604FA2C0/6050310B" Ref="#PWR0120"  Part="1" 
+F 0 "#PWR0120" H 2400 4600 50  0001 C CNN
+F 1 "GND" H 2405 4677 50  0000 C CNN
+F 2 "" H 2400 4850 50  0001 C CNN
+F 3 "" H 2400 4850 50  0001 C CNN
+	1    2400 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 2200 3250 2350
+$Comp
+L Device:C_Small C?
+U 1 1 60503112
+P 2200 2800
+AR Path="/60503112" Ref="C?"  Part="1" 
+AR Path="/604FA2C0/60503112" Ref="C3"  Part="1" 
+F 0 "C3" H 2292 2846 50  0000 L CNN
+F 1 "1uf" H 2292 2755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2200 2800 50  0001 C CNN
+F 3 "~" H 2200 2800 50  0001 C CNN
+	1    2200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60503118
+P 4250 2800
+AR Path="/60503118" Ref="C?"  Part="1" 
+AR Path="/604FA2C0/60503118" Ref="C4"  Part="1" 
+F 0 "C4" H 4342 2846 50  0000 L CNN
+F 1 "1uf" H 4342 2755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4250 2800 50  0001 C CNN
+F 3 "~" H 4250 2800 50  0001 C CNN
+	1    4250 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6050311E
+P 4400 3450
+AR Path="/6050311E" Ref="C?"  Part="1" 
+AR Path="/604FA2C0/6050311E" Ref="C6"  Part="1" 
+F 0 "C6" V 4171 3450 50  0000 C CNN
+F 1 "1uf" V 4262 3450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4400 3450 50  0001 C CNN
+F 3 "~" H 4400 3450 50  0001 C CNN
+	1    4400 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60503124
+P 4400 3150
+AR Path="/60503124" Ref="C?"  Part="1" 
+AR Path="/604FA2C0/60503124" Ref="C5"  Part="1" 
+F 0 "C5" V 4171 3150 50  0000 C CNN
+F 1 "1uf" V 4262 3150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4400 3150 50  0001 C CNN
+F 3 "~" H 4400 3150 50  0001 C CNN
+	1    4400 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2200 2700 2200 2650
+Wire Wire Line
+	2200 2650 2450 2650
+Wire Wire Line
+	2450 2950 2200 2950
+Wire Wire Line
+	2200 2950 2200 2900
+Wire Wire Line
+	4050 2650 4250 2650
+Wire Wire Line
+	4250 2650 4250 2700
+Wire Wire Line
+	4050 2950 4250 2950
+Wire Wire Line
+	4250 2950 4250 2900
+Wire Wire Line
+	4050 3150 4300 3150
+Wire Wire Line
+	4050 3450 4300 3450
+$Comp
+L power:+5V #PWR?
+U 1 1 60503134
+P 4800 3150
+AR Path="/60503134" Ref="#PWR?"  Part="1" 
+AR Path="/604FA2C0/60503134" Ref="#PWR0121"  Part="1" 
+F 0 "#PWR0121" H 4800 3000 50  0001 C CNN
+F 1 "+5V" V 4815 3278 50  0000 L CNN
+F 2 "" H 4800 3150 50  0001 C CNN
+F 3 "" H 4800 3150 50  0001 C CNN
+	1    4800 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6050313A
+P 4800 3450
+AR Path="/6050313A" Ref="#PWR?"  Part="1" 
+AR Path="/604FA2C0/6050313A" Ref="#PWR0122"  Part="1" 
+F 0 "#PWR0122" H 4800 3200 50  0001 C CNN
+F 1 "GND" V 4805 3322 50  0000 R CNN
+F 2 "" H 4800 3450 50  0001 C CNN
+F 3 "" H 4800 3450 50  0001 C CNN
+	1    4800 3450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 3150 4800 3150
+Wire Wire Line
+	4500 3450 4800 3450
+Wire Wire Line
+	3900 4750 3250 4750
+$Comp
+L Interface_UART:MAX232 U?
+U 1 1 60503143
+P 3250 3550
+AR Path="/60503143" Ref="U?"  Part="1" 
+AR Path="/604FA2C0/60503143" Ref="U3"  Part="1" 
+F 0 "U3" H 3250 4931 50  0000 C CNN
+F 1 "MAX232" H 3250 4840 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 3300 2500 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/max232.pdf" H 3250 3650 50  0001 C CNN
+	1    3250 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 4850 2400 4750
+Wire Wire Line
+	2400 4750 3250 4750
+Connection ~ 3250 4750
+Text GLabel 2200 3650 0    50   Input ~ 0
+TX232
+Text GLabel 2200 4050 0    50   Output ~ 0
+RX232
+Wire Wire Line
+	2450 4050 2200 4050
+Wire Wire Line
+	2450 3650 2200 3650
+$EndSCHEMATC
